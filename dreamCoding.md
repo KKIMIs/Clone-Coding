@@ -59,3 +59,15 @@
   - inline-block - 정렬 가능 상자 
 - position
   - static: 기본값 
+  - relative: 원래 자리에서 상대적으로 이동
+  - absolute: 바로 상위 박스 기준으로 이동 (원자리에서 빠져나옴)
+  - fixed: 윈도우 내 고정 위치
+  - sticky: 원래 자리에 + 스크롤링 해도 변화 없음
+
+## 5. Flexbox
+- float
+  - left
+  - center
+  - right
+- container + item
+- main axis(중심축) + cross axis(반대축)
