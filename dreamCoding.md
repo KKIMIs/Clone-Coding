@@ -71,3 +71,29 @@
   - right
 - container + item
 - main axis(중심축) + cross axis(반대축)
+- container attr
+  - display:flex;
+  - flex-direction: row || colunm; - 중심축 결정
+  - flex-wrap:nowrap || wrap;  - 아이템이 컨테이너를 벗어났을 때 줄 바꾸는 속성  
+  - justify-content: space-around || space-between;  /* main axis*/ -균등한 간격으로 정렬하기
+  - align-items: center; /* cross axis */
+  - align-content: center;
+- item attr
+  - order: 순서
+  - flex-grow : 0/1(커짐)/2(더) 
+  - flex-shrink : 0/1(작아짐)/2(더) 
+  - flex-basis: 사용자 설정
+  - align-self : 하나만 위치 설정
+- 연습해보기:
+  - https://flexboxfroggy.com/#ko 
+- flexbox 사용한 다양한 레이아웃
+  - https://d2.naver.com/helloworld/8540176
+- mdn 문서
+  - https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+  
+
+
+## 5.Responsible Web Site
+  - Media Queries의 활용
+  - float 대신 -> flexbox, vw, vh
+  
