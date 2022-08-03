@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+/* 헤더 */
+header{
+    width: 100%;
+    height: 60px;
+    /* background-color: black; */
+}
+/* 영상 콘텐츠 */
+.player{
+    width: 100%;
+}
+.player>video{
+    width: inherit;
+}
+/* 정보박스 */
+
+/* 다음 재생리스트 */
