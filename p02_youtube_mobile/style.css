@@ -1,21 +1,66 @@
+:root{
+    /* Color */
+    --main-color: #4f6083;
+    --main-bg-color: #fafafa;
+    --bg-color-lightBlue:  #a7bdd4; 
+    --ct-color-gray-light: #bdbdbd;
+    --ct-color-gray-dark: #4a4a4a;
+
+
+    /* Font */
+    --large-font-size:22px;
+    --medium-font-size:18px;
+    --small-font-size:14px;
+    --micro-font-size:10px;
+
+    /* Spacing */
+    --big-space:10px;
+    --small-space:5px;
+}
+
+/* basic */
 * {
     margin: 0;
     padding: 0; 
+    list-style: none;
 }
+body{
+    font-family: 'Roboto';
+    font-size: var(--medium-font-size)
+}   
+
+
 
 /* 헤더 */
 header{
-    width: 100%;
-    height: 60px;
-    /* background-color: black; */
+    background-color: var(--main-color); 
+    color: var(--main-bg-color);
+    font-size: var(--large-font-size);
+    display: flex;
+    justify-content: space-between;
+    padding: var(--big-space);
+}
+
+header .logo i {
+    color: var(--bg-color-lightBlue);
+    margin-right: var(--small-space);
+}
+
+header .icons i {
+    margin-left: var(--small-space);
 }
 /* 영상 콘텐츠 */
 .player{
-    width: 100%;
+    background-color: var(--ct-color-gray-dark);
+    text-align: center;
+    position: sticky;
+    top:0;
 }
 .player>video{
-    width: inherit;
-}
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+}    
 /* 정보박스 */
 
 /* 다음 재생리스트 */
